@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta charset="utf8">
+        <title>HighBrow</title>
+        <link rel="stylesheet" href="profileStyle.css">
+        <script src="https://kit.fontawesome.com/e2df549d9f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="white-section">
+        <div class="Profile">
+            <div class="profile-row"> 
+                <input type="file" id="image-input" name="Edit" accept="image/jpeg, image/png, image/jpg">
+                <div id="display-image"></div>
+                <div class = "search-box">
+                    <input class = "search-txt" type = "text" placeholder = "Type to search">
+                    <a class = "search-btn" href = "#">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <!-- <img class="profile-img" src="images/profile.png" alt="profile-image"> -->
+                <h2>Username</h2>
+            </div>
+        </div>
+
+        <hr color="#40DFEF" width="50%">
+
+        <div class="container">
+            <div class="Read">
+                <h2 style="text-align: center;">Read</h2>
+                <br>
+                <div style="text-align: center;">
+                    <i id="plus1" class="fa-solid fa-plus"></i>
+                    <input id="userInput1" type="text" placeholder="add">
+                </div>
+                <br>
+                <div id="allItems1"></div>
+            </div>
+
+            <div class="List">
+                <h2 style="text-align: center;">List</h2>
+                <br>
+                <div style="text-align: center;">
+                    <i id="plus2" class="fa-solid fa-plus"></i>
+                    <input id="userInput2" type="text" placeholder="add">
+                </div>
+                <br>
+                <div id="allItems2"></div>
+            </div>
+
+            <div class="Suggest">
+                <h2 style="text-align: center;">Suggest</h2>
+                <br>
+                <div style="text-align: center;">
+                    <i id="plus3" class="fa-solid fa-plus"></i>
+                    <input id="userInput3" type="text" placeholder="add">
+                </div>
+                <br>
+                <div id="allItems3"></div>
+            </div>
+        </div>
+    </section>
+        <script src="code.js"></script>
+    </body>
+</html>
